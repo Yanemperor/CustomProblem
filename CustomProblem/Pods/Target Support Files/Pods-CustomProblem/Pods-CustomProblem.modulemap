@@ -1,0 +1,6 @@
+framework module Pods_CustomProblem {
+  umbrella header "Pods-CustomProblem-umbrella.h"
+
+  export *
+  module * { export * }
+}
