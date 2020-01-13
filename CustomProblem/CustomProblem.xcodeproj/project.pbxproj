@@ -47,6 +47,40 @@
 		3537222A23BAEEF100F9E8E9 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353721F323BAEEF100F9E8E9 /* UITextField+Extension.swift */; };
 		3537222B23BAEEF100F9E8E9 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353721F423BAEEF100F9E8E9 /* Array+Extension.swift */; };
 		358FD99423C2D73300C3DB31 /* ZLCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD99323C2D73300C3DB31 /* ZLCompletionView.swift */; };
+		358FD9AF23C56EA500C3DB31 /* ZLProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9A623C56EA500C3DB31 /* ZLProblemViewController.swift */; };
+		358FD9B023C56EA500C3DB31 /* ZLProblemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9A923C56EA500C3DB31 /* ZLProblemViewModel.swift */; };
+		358FD9B123C56EA500C3DB31 /* ZLProblemChooseTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9AB23C56EA500C3DB31 /* ZLProblemChooseTextCell.swift */; };
+		358FD9B223C56EA500C3DB31 /* ZLProblemOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9AC23C56EA500C3DB31 /* ZLProblemOptionsCell.swift */; };
+		358FD9B323C56EA500C3DB31 /* ZLProblemTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9AD23C56EA500C3DB31 /* ZLProblemTitleCell.swift */; };
+		358FD9B423C56EA500C3DB31 /* ZLProblemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9AE23C56EA500C3DB31 /* ZLProblemCollectionViewCell.swift */; };
+		358FD9B623C56F3700C3DB31 /* ZLTitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9B523C56F3700C3DB31 /* ZLTitleModel.swift */; };
+		358FD9BD23C575C100C3DB31 /* ZLNewQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9BC23C575C100C3DB31 /* ZLNewQuestionViewController.swift */; };
+		358FD9BF23C577C700C3DB31 /* ZLNewQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9BE23C577C700C3DB31 /* ZLNewQuestionCell.swift */; };
+		358FD9C123C582C600C3DB31 /* ZLNewQuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9C023C582C600C3DB31 /* ZLNewQuestionViewModel.swift */; };
+		358FD9C323C5898700C3DB31 /* ZLKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9C223C5898700C3DB31 /* ZLKeyboardToolbar.swift */; };
+		358FD9C523C5AD9900C3DB31 /* ZLToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FD9C423C5AD9900C3DB31 /* ZLToolbarView.swift */; };
+		358FD9C923C5C2BF00C3DB31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9C823C5C2BF00C3DB31 /* CoreLocation.framework */; };
+		358FD9CB23C5C2CC00C3DB31 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9CA23C5C2CC00C3DB31 /* CoreTelephony.framework */; };
+		358FD9CD23C5C2D800C3DB31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9CC23C5C2D800C3DB31 /* AVFoundation.framework */; };
+		358FD9CF23C5C2E900C3DB31 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9CE23C5C2E900C3DB31 /* AddressBook.framework */; };
+		358FD9D123C5C2F200C3DB31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D023C5C2F200C3DB31 /* AudioToolbox.framework */; };
+		358FD9D323C5C2FB00C3DB31 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D223C5C2FB00C3DB31 /* Contacts.framework */; };
+		358FD9D523C5C30500C3DB31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D423C5C30500C3DB31 /* SystemConfiguration.framework */; };
+		358FD9D723C5C30E00C3DB31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D623C5C30E00C3DB31 /* QuartzCore.framework */; };
+		358FD9D923C5C31800C3DB31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D823C5C31800C3DB31 /* CoreGraphics.framework */; };
+		358FD9DB23C5C33100C3DB31 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9DA23C5C32A00C3DB31 /* libz.tbd */; };
+		358FD9DD23C5C34400C3DB31 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9DC23C5C33B00C3DB31 /* libc++.tbd */; };
+		358FD9DF23C5C36400C3DB31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9DE23C5C36400C3DB31 /* Foundation.framework */; };
+		358FD9E023C5C37100C3DB31 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9CA23C5C2CC00C3DB31 /* CoreTelephony.framework */; };
+		358FD9E123C5C55E00C3DB31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D023C5C2F200C3DB31 /* AudioToolbox.framework */; };
+		358FD9E223C5C56B00C3DB31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9C823C5C2BF00C3DB31 /* CoreLocation.framework */; };
+		358FD9E323C5C57700C3DB31 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D223C5C2FB00C3DB31 /* Contacts.framework */; };
+		358FD9E423C5C58200C3DB31 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9CE23C5C2E900C3DB31 /* AddressBook.framework */; };
+		358FD9E523C5C58A00C3DB31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D623C5C30E00C3DB31 /* QuartzCore.framework */; };
+		358FD9E623C5C59400C3DB31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9D823C5C31800C3DB31 /* CoreGraphics.framework */; };
+		358FD9F623C5D0DF00C3DB31 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9F523C5D0C200C3DB31 /* iflyMSC.framework */; };
+		358FD9FA23C5D35300C3DB31 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9F923C5D35300C3DB31 /* AddressBookUI.framework */; };
+		358FD9FC23C5D36300C3DB31 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9FB23C5D36300C3DB31 /* ContactsUI.framework */; };
 		35CA1FC323BF18A8009BFB2F /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3591066A23BF0D6300C60BC0 /* AipBase.framework */; };
 		35CA1FC423BF18A8009BFB2F /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3591066A23BF0D6300C60BC0 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35CA1FC523BF18A8009BFB2F /* AipOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3591066B23BF0D6300C60BC0 /* AipOcrSdk.framework */; };
@@ -151,6 +185,35 @@
 		353721F323BAEEF100F9E8E9 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		353721F423BAEEF100F9E8E9 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		358FD99323C2D73300C3DB31 /* ZLCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLCompletionView.swift; sourceTree = "<group>"; };
+		358FD9A623C56EA500C3DB31 /* ZLProblemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProblemViewController.swift; sourceTree = "<group>"; };
+		358FD9A923C56EA500C3DB31 /* ZLProblemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProblemViewModel.swift; sourceTree = "<group>"; };
+		358FD9AB23C56EA500C3DB31 /* ZLProblemChooseTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProblemChooseTextCell.swift; sourceTree = "<group>"; };
+		358FD9AC23C56EA500C3DB31 /* ZLProblemOptionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProblemOptionsCell.swift; sourceTree = "<group>"; };
+		358FD9AD23C56EA500C3DB31 /* ZLProblemTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProblemTitleCell.swift; sourceTree = "<group>"; };
+		358FD9AE23C56EA500C3DB31 /* ZLProblemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProblemCollectionViewCell.swift; sourceTree = "<group>"; };
+		358FD9B523C56F3700C3DB31 /* ZLTitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLTitleModel.swift; sourceTree = "<group>"; };
+		358FD9BC23C575C100C3DB31 /* ZLNewQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLNewQuestionViewController.swift; sourceTree = "<group>"; };
+		358FD9BE23C577C700C3DB31 /* ZLNewQuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLNewQuestionCell.swift; sourceTree = "<group>"; };
+		358FD9C023C582C600C3DB31 /* ZLNewQuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLNewQuestionViewModel.swift; sourceTree = "<group>"; };
+		358FD9C223C5898700C3DB31 /* ZLKeyboardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLKeyboardToolbar.swift; sourceTree = "<group>"; };
+		358FD9C423C5AD9900C3DB31 /* ZLToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLToolbarView.swift; sourceTree = "<group>"; };
+		358FD9C823C5C2BF00C3DB31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		358FD9CA23C5C2CC00C3DB31 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		358FD9CC23C5C2D800C3DB31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		358FD9CE23C5C2E900C3DB31 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		358FD9D023C5C2F200C3DB31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		358FD9D223C5C2FB00C3DB31 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		358FD9D423C5C30500C3DB31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		358FD9D623C5C30E00C3DB31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		358FD9D823C5C31800C3DB31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		358FD9DA23C5C32A00C3DB31 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		358FD9DC23C5C33B00C3DB31 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		358FD9DE23C5C36400C3DB31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		358FD9F223C5D08400C3DB31 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		358FD9F523C5D0C200C3DB31 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		358FD9F823C5D23300C3DB31 /* CustomProblem+Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomProblem+Bridging-Header.h"; sourceTree = "<group>"; };
+		358FD9F923C5D35300C3DB31 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		358FD9FB23C5D36300C3DB31 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		3591066A23BF0D6300C60BC0 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = CustomProblem/ZLResources/AipBase.framework; sourceTree = "<group>"; };
 		3591066B23BF0D6300C60BC0 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = CustomProblem/ZLResources/AipOcrSdk.framework; sourceTree = "<group>"; };
 		35CA1FC823BF1900009BFB2F /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
@@ -165,10 +228,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358FD9D723C5C30E00C3DB31 /* QuartzCore.framework in Frameworks */,
 				35CA1FC323BF18A8009BFB2F /* AipBase.framework in Frameworks */,
+				358FD9D523C5C30500C3DB31 /* SystemConfiguration.framework in Frameworks */,
+				358FD9E123C5C55E00C3DB31 /* AudioToolbox.framework in Frameworks */,
 				35CA1FCB23BF1901009BFB2F /* AipOcrSdk.framework in Frameworks */,
+				358FD9E323C5C57700C3DB31 /* Contacts.framework in Frameworks */,
+				358FD9F623C5D0DF00C3DB31 /* iflyMSC.framework in Frameworks */,
+				358FD9E223C5C56B00C3DB31 /* CoreLocation.framework in Frameworks */,
+				358FD9DD23C5C34400C3DB31 /* libc++.tbd in Frameworks */,
+				358FD9D923C5C31800C3DB31 /* CoreGraphics.framework in Frameworks */,
+				358FD9CD23C5C2D800C3DB31 /* AVFoundation.framework in Frameworks */,
+				358FD9CB23C5C2CC00C3DB31 /* CoreTelephony.framework in Frameworks */,
+				358FD9DB23C5C33100C3DB31 /* libz.tbd in Frameworks */,
+				358FD9E623C5C59400C3DB31 /* CoreGraphics.framework in Frameworks */,
 				8403C36ED906F916F2FAF057 /* Pods_CustomProblem.framework in Frameworks */,
+				358FD9D123C5C2F200C3DB31 /* AudioToolbox.framework in Frameworks */,
+				358FD9E523C5C58A00C3DB31 /* QuartzCore.framework in Frameworks */,
+				358FD9C923C5C2BF00C3DB31 /* CoreLocation.framework in Frameworks */,
+				358FD9FA23C5D35300C3DB31 /* AddressBookUI.framework in Frameworks */,
+				358FD9E423C5C58200C3DB31 /* AddressBook.framework in Frameworks */,
+				358FD9D323C5C2FB00C3DB31 /* Contacts.framework in Frameworks */,
+				358FD9FC23C5D36300C3DB31 /* ContactsUI.framework in Frameworks */,
+				358FD9CF23C5C2E900C3DB31 /* AddressBook.framework in Frameworks */,
 				35CA1FCA23BF1901009BFB2F /* AipBase.framework in Frameworks */,
+				358FD9DF23C5C36400C3DB31 /* Foundation.framework in Frameworks */,
+				358FD9E023C5C37100C3DB31 /* CoreTelephony.framework in Frameworks */,
 				35CA1FC523BF18A8009BFB2F /* AipOcrSdk.framework in Frameworks */,
 				35CA1FD023BF1DDC009BFB2F /* IdcardQuality.framework in Frameworks */,
 				35CA1FCF23BF1DC9009BFB2F /* IdcardQuality.framework in Frameworks */,
@@ -301,6 +386,7 @@
 				3537218923BAEEF000F9E8E9 /* ZLTableKey.swift */,
 				3537218A23BAEEF000F9E8E9 /* ZLEnums.swift */,
 				3537218B23BAEEF000F9E8E9 /* ZLConfigKey.swift */,
+				358FD9F823C5D23300C3DB31 /* CustomProblem+Bridging-Header.h */,
 			);
 			path = ZLUtilities;
 			sourceTree = "<group>";
@@ -308,6 +394,8 @@
 		3537218C23BAEEF000F9E8E9 /* ZLSection */ = {
 			isa = PBXGroup;
 			children = (
+				358FD9B723C5759C00C3DB31 /* ZLNewQuestion */,
+				358FD9A423C56EA500C3DB31 /* ZLProblem */,
 				3530CD6323BAF2C00028ECD2 /* ZLHome */,
 			);
 			path = ZLSection;
@@ -316,6 +404,7 @@
 		353721C423BAEEF000F9E8E9 /* ZLResources */ = {
 			isa = PBXGroup;
 			children = (
+				358FD9F123C5D08400C3DB31 /* lib */,
 				35CA1FCE23BF1DC9009BFB2F /* IdcardQuality.framework */,
 				35CA1FC823BF1900009BFB2F /* AipBase.framework */,
 				35CA1FC923BF1901009BFB2F /* AipOcrSdk.framework */,
@@ -489,6 +578,113 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
+		358FD9A423C56EA500C3DB31 /* ZLProblem */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9A523C56EA500C3DB31 /* ZLController */,
+				358FD9A723C56EA500C3DB31 /* ZLModel */,
+				358FD9A823C56EA500C3DB31 /* ZLViewModel */,
+				358FD9AA23C56EA500C3DB31 /* ZLView */,
+			);
+			path = ZLProblem;
+			sourceTree = "<group>";
+		};
+		358FD9A523C56EA500C3DB31 /* ZLController */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9A623C56EA500C3DB31 /* ZLProblemViewController.swift */,
+			);
+			path = ZLController;
+			sourceTree = "<group>";
+		};
+		358FD9A723C56EA500C3DB31 /* ZLModel */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9B523C56F3700C3DB31 /* ZLTitleModel.swift */,
+			);
+			path = ZLModel;
+			sourceTree = "<group>";
+		};
+		358FD9A823C56EA500C3DB31 /* ZLViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9A923C56EA500C3DB31 /* ZLProblemViewModel.swift */,
+			);
+			path = ZLViewModel;
+			sourceTree = "<group>";
+		};
+		358FD9AA23C56EA500C3DB31 /* ZLView */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9AB23C56EA500C3DB31 /* ZLProblemChooseTextCell.swift */,
+				358FD9AC23C56EA500C3DB31 /* ZLProblemOptionsCell.swift */,
+				358FD9AD23C56EA500C3DB31 /* ZLProblemTitleCell.swift */,
+				358FD9AE23C56EA500C3DB31 /* ZLProblemCollectionViewCell.swift */,
+			);
+			path = ZLView;
+			sourceTree = "<group>";
+		};
+		358FD9B723C5759C00C3DB31 /* ZLNewQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9B823C5759C00C3DB31 /* ZLController */,
+				358FD9B923C5759C00C3DB31 /* ZLModel */,
+				358FD9BA23C5759C00C3DB31 /* ZLViewModel */,
+				358FD9BB23C5759C00C3DB31 /* ZLView */,
+			);
+			path = ZLNewQuestion;
+			sourceTree = "<group>";
+		};
+		358FD9B823C5759C00C3DB31 /* ZLController */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9BC23C575C100C3DB31 /* ZLNewQuestionViewController.swift */,
+			);
+			path = ZLController;
+			sourceTree = "<group>";
+		};
+		358FD9B923C5759C00C3DB31 /* ZLModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZLModel;
+			sourceTree = "<group>";
+		};
+		358FD9BA23C5759C00C3DB31 /* ZLViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9C023C582C600C3DB31 /* ZLNewQuestionViewModel.swift */,
+			);
+			path = ZLViewModel;
+			sourceTree = "<group>";
+		};
+		358FD9BB23C5759C00C3DB31 /* ZLView */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9BE23C577C700C3DB31 /* ZLNewQuestionCell.swift */,
+				358FD9C223C5898700C3DB31 /* ZLKeyboardToolbar.swift */,
+				358FD9C423C5AD9900C3DB31 /* ZLToolbarView.swift */,
+			);
+			path = ZLView;
+			sourceTree = "<group>";
+		};
+		358FD9F123C5D08400C3DB31 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9F223C5D08400C3DB31 /* iflyMSC.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		358FD9F423C5D0C200C3DB31 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				358FD9F523C5D0C200C3DB31 /* iflyMSC.framework */,
+			);
+			name = lib;
+			path = CustomProblem/ZLResources/lib;
+			sourceTree = "<group>";
+		};
 		4A9B4E91FDDBFDBE56CDF877 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,6 +697,21 @@
 		4F3109A884964CCD4B5780AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				358FD9FB23C5D36300C3DB31 /* ContactsUI.framework */,
+				358FD9F923C5D35300C3DB31 /* AddressBookUI.framework */,
+				358FD9F423C5D0C200C3DB31 /* lib */,
+				358FD9DE23C5C36400C3DB31 /* Foundation.framework */,
+				358FD9DC23C5C33B00C3DB31 /* libc++.tbd */,
+				358FD9DA23C5C32A00C3DB31 /* libz.tbd */,
+				358FD9D823C5C31800C3DB31 /* CoreGraphics.framework */,
+				358FD9D623C5C30E00C3DB31 /* QuartzCore.framework */,
+				358FD9D423C5C30500C3DB31 /* SystemConfiguration.framework */,
+				358FD9D223C5C2FB00C3DB31 /* Contacts.framework */,
+				358FD9D023C5C2F200C3DB31 /* AudioToolbox.framework */,
+				358FD9CE23C5C2E900C3DB31 /* AddressBook.framework */,
+				358FD9CC23C5C2D800C3DB31 /* AVFoundation.framework */,
+				358FD9CA23C5C2CC00C3DB31 /* CoreTelephony.framework */,
+				358FD9C823C5C2BF00C3DB31 /* CoreLocation.framework */,
 				3591066A23BF0D6300C60BC0 /* AipBase.framework */,
 				3591066B23BF0D6300C60BC0 /* AipOcrSdk.framework */,
 				FB4846755C8D70D353F434E7 /* Pods_CustomProblem.framework */,
@@ -687,7 +898,11 @@
 			files = (
 				3537222323BAEEF100F9E8E9 /* UIColor+Extension.swift in Sources */,
 				353721F923BAEEF100F9E8E9 /* ZLEnums.swift in Sources */,
+				358FD9C323C5898700C3DB31 /* ZLKeyboardToolbar.swift in Sources */,
+				358FD9AF23C56EA500C3DB31 /* ZLProblemViewController.swift in Sources */,
 				353721FA23BAEEF100F9E8E9 /* ZLConfigKey.swift in Sources */,
+				358FD9B323C56EA500C3DB31 /* ZLProblemTitleCell.swift in Sources */,
+				358FD9C523C5AD9900C3DB31 /* ZLToolbarView.swift in Sources */,
 				3537221223BAEEF100F9E8E9 /* ZLDataBase.swift in Sources */,
 				353721F823BAEEF100F9E8E9 /* ZLTableKey.swift in Sources */,
 				3537221723BAEEF100F9E8E9 /* ZLBaseModel.swift in Sources */,
@@ -696,22 +911,30 @@
 				3537221D23BAEEF100F9E8E9 /* ZLVersionUpdate.swift in Sources */,
 				3537221823BAEEF100F9E8E9 /* ZLBaseViewModel.swift in Sources */,
 				3537222623BAEEF100F9E8E9 /* UIView+ZLAdd.swift in Sources */,
+				358FD9B423C56EA500C3DB31 /* ZLProblemCollectionViewCell.swift in Sources */,
 				3537221523BAEEF100F9E8E9 /* ZLBaseViewController.swift in Sources */,
 				353721F623BAEEF100F9E8E9 /* ZLColor.swift in Sources */,
 				3537222723BAEEF100F9E8E9 /* String+Extension.swift in Sources */,
 				3537221123BAEEF100F9E8E9 /* ZLHUD.swift in Sources */,
 				3537215823BAEE8600F9E8E9 /* AppDelegate.swift in Sources */,
 				3537222B23BAEEF100F9E8E9 /* Array+Extension.swift in Sources */,
+				358FD9BD23C575C100C3DB31 /* ZLNewQuestionViewController.swift in Sources */,
 				3537220F23BAEEF100F9E8E9 /* ZLInterstitial.swift in Sources */,
+				358FD9B223C56EA500C3DB31 /* ZLProblemOptionsCell.swift in Sources */,
+				358FD9B623C56F3700C3DB31 /* ZLTitleModel.swift in Sources */,
 				3537222223BAEEF100F9E8E9 /* ZLUserInfo.swift in Sources */,
 				3537222923BAEEF100F9E8E9 /* UIScrollView+Extension.swift in Sources */,
 				3537222023BAEEF100F9E8E9 /* ZLGlobalTimer.swift in Sources */,
 				3537222A23BAEEF100F9E8E9 /* UITextField+Extension.swift in Sources */,
+				358FD9B123C56EA500C3DB31 /* ZLProblemChooseTextCell.swift in Sources */,
 				3537222523BAEEF100F9E8E9 /* NSObject+UIViewController.swift in Sources */,
 				3537221323BAEEF100F9E8E9 /* ZLBaseNavigationController.swift in Sources */,
 				3530CD6B23BAF2EA0028ECD2 /* ZLHomeViewController.swift in Sources */,
 				3537221F23BAEEF100F9E8E9 /* ZLSystemShare.swift in Sources */,
+				358FD9B023C56EA500C3DB31 /* ZLProblemViewModel.swift in Sources */,
+				358FD9BF23C577C700C3DB31 /* ZLNewQuestionCell.swift in Sources */,
 				3537221423BAEEF100F9E8E9 /* ZLBaseTableViewController.swift in Sources */,
+				358FD9C123C582C600C3DB31 /* ZLNewQuestionViewModel.swift in Sources */,
 				3537222123BAEEF100F9E8E9 /* ZLJSONParser.swift in Sources */,
 				353721F523BAEEF100F9E8E9 /* ZLNotification.swift in Sources */,
 				358FD99423C2D73300C3DB31 /* ZLCompletionView.swift in Sources */,
@@ -906,9 +1129,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS5666643L;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CustomProblem/ZLResources",
+					"$(PROJECT_DIR)/CustomProblem/ZLResources/lib",
 				);
 				INFOPLIST_FILE = CustomProblem/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -919,6 +1144,7 @@
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = zhouzilong.CustomProblem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CustomProblem/ZLUtilities/CustomProblem+Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -932,9 +1158,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS5666643L;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CustomProblem/ZLResources",
+					"$(PROJECT_DIR)/CustomProblem/ZLResources/lib",
 				);
 				INFOPLIST_FILE = CustomProblem/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -945,6 +1173,7 @@
 				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = zhouzilong.CustomProblem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CustomProblem/ZLUtilities/CustomProblem+Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

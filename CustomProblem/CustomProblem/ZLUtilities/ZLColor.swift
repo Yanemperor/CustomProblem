@@ -47,4 +47,6 @@ let color_cb99c5 = UIColor.colorWithHexCode(code: "cb99c5")
 let color_DCDCDC = UIColor.colorWithHexCode(code: "DCDCDC")
 let color_696969 = UIColor.colorWithHexCode(code: "696969")
 
+let color_F5F5F5 = UIColor.colorWithHexCode(code: "F5F5F5")
+
 

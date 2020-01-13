@@ -15,13 +15,9 @@ class ZLHomeViewController: ZLBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        initOCR()
         initUI()
     }
     
-    func initOCR() {
-        AipOcrService.shard()?.auth(withAK: "iVwyAGDeua69thR8vS0u8rTs", andSK: "ZsPvNAzjy9i8VErhqIZw20RWGL12h8bA")
-    }
     
     func generalOCR() {
         let vc = AipGeneralVC.viewController { (image) in
@@ -37,6 +33,13 @@ class ZLHomeViewController: ZLBaseTableViewController {
     
     func initUI() {
         navTitle(title: "")
+        
+        setRightBarButtonItem(name: "新建", type: .text) {
+            let vc = ZLNewQuestionViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+            
+        }
         
         view.addSubview(titleLabel)
         view.addSubview(orcBtn)

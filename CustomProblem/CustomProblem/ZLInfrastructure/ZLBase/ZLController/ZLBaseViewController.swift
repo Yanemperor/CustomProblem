@@ -55,6 +55,20 @@ class ZLBaseViewController: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    func addKeyboardNotification() {
+        // 注册键盘弹出通知
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidHide), name: UIResponder.keyboardDidHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardDidShowNotification, object: nil)
+
+    }
+    //监听键盘收回
+    @objc func keyboardDidHide(aNotification: Notification) {
+        
+    }
+    //监听键盘弹出
+    @objc func keyboardWillShow(aNotification: Notification) {
+        
+    }
     
 }
 

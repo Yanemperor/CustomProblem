@@ -10,6 +10,9 @@ import UIKit
 import GoogleMobileAds
 import Bugly
 import IQKeyboardManagerSwift
+import AipOcrSdk
+//import IFlyMSC
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -26,6 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         initAdvertising()
         //        loadAdTimer()
         ZLDataBase.shared.createDB()
+        initOCR()
+        initIFly()
         #if DEBUG
         //        Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")?.load()
         #else
@@ -55,6 +60,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func loadAdTimer() {
         ZLGlobalTimer.shared.initClick()
+    }
+    
+    func initOCR() {
+        AipOcrService.shard()?.auth(withAK: "iVwyAGDeua69thR8vS0u8rTs", andSK: "ZsPvNAzjy9i8VErhqIZw20RWGL12h8bA")
+    }
+    
+    func initIFly() {
+//        [IFlySpeechUtility createUtility:initString];
+        IFlySpeechUtility.createUtility("appid=5e0ef5d5")
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
