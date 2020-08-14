@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ZLNewQuestionCell: UITableViewCell {
+class ZLNewQuestionCell: BaseTableViewCell {
 
     var title: String? {
         didSet{
@@ -54,7 +54,7 @@ class ZLNewQuestionCell: UITableViewCell {
         temp.textAlignment = .right
         temp.font = autoFont(font: 16)
         temp.placeholder = "请输入"
-        temp.isUserInteractionEnabled = false
+//        temp.isUserInteractionEnabled = false
         return temp
     }()
     

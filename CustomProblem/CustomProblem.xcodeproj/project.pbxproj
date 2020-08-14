@@ -81,6 +81,9 @@
 		358FD9F623C5D0DF00C3DB31 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9F523C5D0C200C3DB31 /* iflyMSC.framework */; };
 		358FD9FA23C5D35300C3DB31 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9F923C5D35300C3DB31 /* AddressBookUI.framework */; };
 		358FD9FC23C5D36300C3DB31 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358FD9FB23C5D36300C3DB31 /* ContactsUI.framework */; };
+		35C7148C23CC55780099F0BC /* ZLNewQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C7148B23CC55780099F0BC /* ZLNewQuestionModel.swift */; };
+		35C7149323CC60C60099F0BC /* ZLAddTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C7149223CC60C60099F0BC /* ZLAddTitleViewController.swift */; };
+		35C7149523CC610E0099F0BC /* ZLAddTitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C7149423CC610E0099F0BC /* ZLAddTitleViewModel.swift */; };
 		35CA1FC323BF18A8009BFB2F /* AipBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3591066A23BF0D6300C60BC0 /* AipBase.framework */; };
 		35CA1FC423BF18A8009BFB2F /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3591066A23BF0D6300C60BC0 /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35CA1FC523BF18A8009BFB2F /* AipOcrSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3591066B23BF0D6300C60BC0 /* AipOcrSdk.framework */; };
@@ -216,6 +219,9 @@
 		358FD9FB23C5D36300C3DB31 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		3591066A23BF0D6300C60BC0 /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = CustomProblem/ZLResources/AipBase.framework; sourceTree = "<group>"; };
 		3591066B23BF0D6300C60BC0 /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = CustomProblem/ZLResources/AipOcrSdk.framework; sourceTree = "<group>"; };
+		35C7148B23CC55780099F0BC /* ZLNewQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLNewQuestionModel.swift; sourceTree = "<group>"; };
+		35C7149223CC60C60099F0BC /* ZLAddTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLAddTitleViewController.swift; sourceTree = "<group>"; };
+		35C7149423CC610E0099F0BC /* ZLAddTitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLAddTitleViewModel.swift; sourceTree = "<group>"; };
 		35CA1FC823BF1900009BFB2F /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
 		35CA1FC923BF1901009BFB2F /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipOcrSdk.framework; sourceTree = "<group>"; };
 		35CA1FCE23BF1DC9009BFB2F /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IdcardQuality.framework; sourceTree = "<group>"; };
@@ -394,6 +400,7 @@
 		3537218C23BAEEF000F9E8E9 /* ZLSection */ = {
 			isa = PBXGroup;
 			children = (
+				35C7148D23CC60B00099F0BC /* ZLAddTitle */,
 				358FD9B723C5759C00C3DB31 /* ZLNewQuestion */,
 				358FD9A423C56EA500C3DB31 /* ZLProblem */,
 				3530CD6323BAF2C00028ECD2 /* ZLHome */,
@@ -646,6 +653,7 @@
 		358FD9B923C5759C00C3DB31 /* ZLModel */ = {
 			isa = PBXGroup;
 			children = (
+				35C7148B23CC55780099F0BC /* ZLNewQuestionModel.swift */,
 			);
 			path = ZLModel;
 			sourceTree = "<group>";
@@ -683,6 +691,47 @@
 			);
 			name = lib;
 			path = CustomProblem/ZLResources/lib;
+			sourceTree = "<group>";
+		};
+		35C7148D23CC60B00099F0BC /* ZLAddTitle */ = {
+			isa = PBXGroup;
+			children = (
+				35C7148E23CC60B00099F0BC /* ZLController */,
+				35C7148F23CC60B00099F0BC /* ZLModel */,
+				35C7149023CC60B00099F0BC /* ZLViewModel */,
+				35C7149123CC60B00099F0BC /* ZLView */,
+			);
+			path = ZLAddTitle;
+			sourceTree = "<group>";
+		};
+		35C7148E23CC60B00099F0BC /* ZLController */ = {
+			isa = PBXGroup;
+			children = (
+				35C7149223CC60C60099F0BC /* ZLAddTitleViewController.swift */,
+			);
+			path = ZLController;
+			sourceTree = "<group>";
+		};
+		35C7148F23CC60B00099F0BC /* ZLModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZLModel;
+			sourceTree = "<group>";
+		};
+		35C7149023CC60B00099F0BC /* ZLViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				35C7149423CC610E0099F0BC /* ZLAddTitleViewModel.swift */,
+			);
+			path = ZLViewModel;
+			sourceTree = "<group>";
+		};
+		35C7149123CC60B00099F0BC /* ZLView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZLView;
 			sourceTree = "<group>";
 		};
 		4A9B4E91FDDBFDBE56CDF877 /* Pods */ = {
@@ -931,15 +980,18 @@
 				3537221323BAEEF100F9E8E9 /* ZLBaseNavigationController.swift in Sources */,
 				3530CD6B23BAF2EA0028ECD2 /* ZLHomeViewController.swift in Sources */,
 				3537221F23BAEEF100F9E8E9 /* ZLSystemShare.swift in Sources */,
+				35C7149323CC60C60099F0BC /* ZLAddTitleViewController.swift in Sources */,
 				358FD9B023C56EA500C3DB31 /* ZLProblemViewModel.swift in Sources */,
 				358FD9BF23C577C700C3DB31 /* ZLNewQuestionCell.swift in Sources */,
 				3537221423BAEEF100F9E8E9 /* ZLBaseTableViewController.swift in Sources */,
+				35C7149523CC610E0099F0BC /* ZLAddTitleViewModel.swift in Sources */,
 				358FD9C123C582C600C3DB31 /* ZLNewQuestionViewModel.swift in Sources */,
 				3537222123BAEEF100F9E8E9 /* ZLJSONParser.swift in Sources */,
 				353721F523BAEEF100F9E8E9 /* ZLNotification.swift in Sources */,
 				358FD99423C2D73300C3DB31 /* ZLCompletionView.swift in Sources */,
 				3537221E23BAEEF100F9E8E9 /* ZLActivity.swift in Sources */,
 				3537222423BAEEF100F9E8E9 /* Operators.swift in Sources */,
+				35C7148C23CC55780099F0BC /* ZLNewQuestionModel.swift in Sources */,
 				3537221023BAEEF100F9E8E9 /* ZLBannerView.swift in Sources */,
 				353721F723BAEEF100F9E8E9 /* ZLUniversal.swift in Sources */,
 				3537221923BAEEF100F9E8E9 /* BaseTableViewCell.swift in Sources */,

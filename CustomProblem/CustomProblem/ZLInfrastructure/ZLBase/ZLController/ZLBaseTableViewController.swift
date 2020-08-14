@@ -47,6 +47,39 @@ class ZLBaseTableViewController: ZLBaseViewController {
         
     }
     
+    func addNextBut(title: String, click: @escaping () -> ()) {        
+        view.addSubview(leftBtn)
+        leftBtn.setTitle(title, for: .normal)
+        leftBtn.snp.makeConstraints { (make) in
+            make.height.equalTo(autoSize(number: 50))
+            make.bottom.equalToSuperview().offset(autoSize(number: -10))
+            make.left.equalToSuperview().offset(autoSize(number: 15))
+            make.right.equalToSuperview().offset(autoSize(number: -15))
+        }
+        leftBtn.rx.controlEvent(.touchUpInside).subscribe { (button) in
+            click()
+        }.disposed(by: disposeBag)
+        
+        tableView.snp.remakeConstraints { (make) in
+            make.left.right.equalToSuperview()
+            make.top.equalToSuperview().offset(kNavigationBarHeight)
+            make.bottom.equalTo(leftBtn.snp.top)
+        }
+    }
+    
+    lazy var leftBtn: UIButton = {
+        let temp = UIButton()
+        temp.backgroundColor = color_ffffff
+        temp.setTitle("", for: .normal)
+        temp.setTitleColor(color_333333, for: .normal)
+        temp.titleLabel?.font = autoFont(font: 16)
+        temp.layer.cornerRadius = autoSize(number: 50 / 2.0)
+        temp.layer.masksToBounds = true
+        temp.layer.borderWidth = 1
+        temp.layer.borderColor = color_333333.cgColor
+        return temp
+    }()
+    
     
     // MARK: - 懒加载
     

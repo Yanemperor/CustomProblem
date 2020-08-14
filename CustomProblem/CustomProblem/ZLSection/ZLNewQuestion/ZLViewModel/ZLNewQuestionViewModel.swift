@@ -9,6 +9,5 @@
 import UIKit
 
 class ZLNewQuestionViewModel: NSObject {
-    var titles: Array<Array<String>> = [["试卷名"], ["题目"]]
-    
+    var titles: Array<Array<String>> = [["题库名称"], ["作者名"]]
 }
